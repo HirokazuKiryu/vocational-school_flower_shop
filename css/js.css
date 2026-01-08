@@ -1,0 +1,17 @@
+
+/*fade_in*/
+.fadeIn{
+  opacity: 0;
+  transition: 5s;
+  transform: translateX(-10%);
+}
+
+.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*to_top*/
+.on {
+  bottom: 10px;
+}
